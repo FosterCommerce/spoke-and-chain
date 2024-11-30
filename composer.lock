@@ -4543,9 +4543,9 @@
             },
             "type": "craft-plugin",
             "extra": {
+                "name": "SEOmatic",
                 "class": "nystudio107\\seomatic\\Seomatic",
-                "handle": "seomatic",
-                "name": "SEOmatic"
+                "handle": "seomatic"
             },
             "autoload": {
                 "psr-4": {
@@ -6605,16 +6605,16 @@
         },
         {
             "name": "solspace/craft-freeform",
-            "version": "5.7.3",
+            "version": "5.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solspace/craft-freeform.git",
-                "reference": "92b5f8531ac42b87ef0b73a04243b8c875d29131"
+                "reference": "bd7557f0ee543b738f81e41335edc3dd8d0d8016"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/92b5f8531ac42b87ef0b73a04243b8c875d29131",
-                "reference": "92b5f8531ac42b87ef0b73a04243b8c875d29131",
+                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/bd7557f0ee543b738f81e41335edc3dd8d0d8016",
+                "reference": "bd7557f0ee543b738f81e41335edc3dd8d0d8016",
                 "shasum": ""
             },
             "require": {
@@ -6670,9 +6670,9 @@
             "description": "The most reliable form builder that's ready for wherever your project takes you.",
             "support": {
                 "issues": "https://github.com/solspace/craft-freeform/issues",
-                "source": "https://github.com/solspace/craft-freeform/tree/v5.7.3"
+                "source": "https://github.com/solspace/craft-freeform/tree/v5.7.4"
             },
-            "time": "2024-11-22T20:42:27+00:00"
+            "time": "2024-11-29T17:27:32+00:00"
         },
         {
             "name": "spomky-labs/cbor-php",
