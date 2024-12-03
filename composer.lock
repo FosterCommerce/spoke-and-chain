@@ -847,16 +847,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.5.3",
+            "version": "5.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "20199c5340825146f2354d0a29fb694b7d86e400"
+                "reference": "c89aea32f0ec77d4e32d5c1cdf282ef917d60aa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/20199c5340825146f2354d0a29fb694b7d86e400",
-                "reference": "20199c5340825146f2354d0a29fb694b7d86e400",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/c89aea32f0ec77d4e32d5c1cdf282ef917d60aa9",
+                "reference": "c89aea32f0ec77d4e32d5c1cdf282ef917d60aa9",
                 "shasum": ""
             },
             "require": {
@@ -970,20 +970,20 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2024-11-22T23:29:45+00:00"
+            "time": "2024-12-02T19:37:31+00:00"
         },
         {
             "name": "craftcms/commerce",
-            "version": "5.2.6",
+            "version": "5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/commerce.git",
-                "reference": "0e3d2fc0870d774d2879434fb2dfed9d91964c88"
+                "reference": "0dded042cf25e4e5dd56a303a1512722c0642120"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/commerce/zipball/0e3d2fc0870d774d2879434fb2dfed9d91964c88",
-                "reference": "0e3d2fc0870d774d2879434fb2dfed9d91964c88",
+                "url": "https://api.github.com/repos/craftcms/commerce/zipball/0dded042cf25e4e5dd56a303a1512722c0642120",
+                "reference": "0dded042cf25e4e5dd56a303a1512722c0642120",
                 "shasum": ""
             },
             "require": {
@@ -1045,7 +1045,7 @@
                 "rss": "https://github.com/craftcms/commerce/releases.atom",
                 "source": "https://github.com/craftcms/commerce"
             },
-            "time": "2024-11-26T10:18:58+00:00"
+            "time": "2024-12-02T22:09:42+00:00"
         },
         {
             "name": "craftcms/flysystem",
