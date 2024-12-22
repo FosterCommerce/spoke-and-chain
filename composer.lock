@@ -4184,16 +4184,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.8.2",
+            "version": "3.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e1268cdbc486d97ce23fef2c666dc3c6b6de9947"
+                "reference": "f01cfa96468f4c38325f507ab81a4f1d2cd93cfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e1268cdbc486d97ce23fef2c666dc3c6b6de9947",
-                "reference": "e1268cdbc486d97ce23fef2c666dc3c6b6de9947",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f01cfa96468f4c38325f507ab81a4f1d2cd93cfe",
+                "reference": "f01cfa96468f4c38325f507ab81a4f1d2cd93cfe",
                 "shasum": ""
             },
             "require": {
@@ -4286,7 +4286,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-07T17:46:48+00:00"
+            "time": "2024-12-21T18:03:19+00:00"
         },
         {
             "name": "nyholm/psr7",
@@ -4493,16 +4493,16 @@
         },
         {
             "name": "nystudio107/craft-seomatic",
-            "version": "5.1.7",
+            "version": "5.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nystudio107/craft-seomatic.git",
-                "reference": "cddd2a50c715c04c8d2a1ea76d059bf67130ac05"
+                "reference": "faead4dd1b5656975253c42eaf3cd3e09ac664aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/cddd2a50c715c04c8d2a1ea76d059bf67130ac05",
-                "reference": "cddd2a50c715c04c8d2a1ea76d059bf67130ac05",
+                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/faead4dd1b5656975253c42eaf3cd3e09ac664aa",
+                "reference": "faead4dd1b5656975253c42eaf3cd3e09ac664aa",
                 "shasum": ""
             },
             "require": {
@@ -4586,7 +4586,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-20T18:33:28+00:00"
+            "time": "2024-12-21T23:33:37+00:00"
         },
         {
             "name": "nystudio107/craft-twigpack",
