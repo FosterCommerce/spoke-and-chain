@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.336.2",
+            "version": "3.336.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "954bfdfc048840ca34afe2a2e1cbcff6681989c4"
+                "reference": "b863c7953ebeeae191c3835bb5413f872cfbb753"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/954bfdfc048840ca34afe2a2e1cbcff6681989c4",
-                "reference": "954bfdfc048840ca34afe2a2e1cbcff6681989c4",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b863c7953ebeeae191c3835bb5413f872cfbb753",
+                "reference": "b863c7953ebeeae191c3835bb5413f872cfbb753",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.336.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.336.3"
             },
-            "time": "2024-12-20T19:05:10+00:00"
+            "time": "2024-12-23T19:13:29+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -6174,12 +6174,12 @@
             "type": "craft-plugin",
             "extra": {
                 "name": "Sprig",
+                "class": "putyourlightson\\sprig\\plugin\\Sprig",
                 "handle": "sprig",
                 "developer": "PutYourLightsOn",
-                "developerUrl": "https://putyourlightson.com/",
-                "documentationUrl": "https://putyourlightson.com/plugins/sprig",
                 "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-sprig/develop/CHANGELOG.md",
-                "class": "putyourlightson\\sprig\\plugin\\Sprig"
+                "developerUrl": "https://putyourlightson.com/",
+                "documentationUrl": "https://putyourlightson.com/plugins/sprig"
             },
             "autoload": {
                 "psr-4": {
@@ -6603,16 +6603,16 @@
         },
         {
             "name": "solspace/craft-freeform",
-            "version": "5.8.3",
+            "version": "5.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solspace/craft-freeform.git",
-                "reference": "07d0a9d4f1cf1600ddd16b59651bf1a1790f5885"
+                "reference": "5ad0de42a056c176e1497dd7ec0372c22006642d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/07d0a9d4f1cf1600ddd16b59651bf1a1790f5885",
-                "reference": "07d0a9d4f1cf1600ddd16b59651bf1a1790f5885",
+                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/5ad0de42a056c176e1497dd7ec0372c22006642d",
+                "reference": "5ad0de42a056c176e1497dd7ec0372c22006642d",
                 "shasum": ""
             },
             "require": {
@@ -6668,9 +6668,9 @@
             "description": "The most reliable form builder that's ready for wherever your project takes you.",
             "support": {
                 "issues": "https://github.com/solspace/craft-freeform/issues",
-                "source": "https://github.com/solspace/craft-freeform/tree/v5.8.3"
+                "source": "https://github.com/solspace/craft-freeform/tree/v5.8.4"
             },
-            "time": "2024-12-16T17:20:39+00:00"
+            "time": "2024-12-23T17:39:57+00:00"
         },
         {
             "name": "spomky-labs/cbor-php",
@@ -9884,20 +9884,21 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.7.8",
+            "version": "6.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "7956f5e37863c6a569d5ccfae826f353a12a2493"
+                "reference": "14ffa0e308f5634aa2489568b4b90b24073b6731"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/7956f5e37863c6a569d5ccfae826f353a12a2493",
-                "reference": "7956f5e37863c6a569d5ccfae826f353a12a2493",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/14ffa0e308f5634aa2489568b4b90b24073b6731",
+                "reference": "14ffa0e308f5634aa2489568b4b90b24073b6731",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0"
+                "ext-curl": "*",
+                "php": ">=7.1.0"
             },
             "type": "library",
             "autoload": {
@@ -9944,7 +9945,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tecnickcom/TCPDF/issues",
-                "source": "https://github.com/tecnickcom/TCPDF/tree/6.7.8"
+                "source": "https://github.com/tecnickcom/TCPDF/tree/6.8.0"
             },
             "funding": [
                 {
@@ -9952,7 +9953,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-12-13T19:31:40+00:00"
+            "time": "2024-12-23T13:34:57+00:00"
         },
         {
             "name": "theiconic/name-parser",
