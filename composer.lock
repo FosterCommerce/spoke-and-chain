@@ -4493,16 +4493,16 @@
         },
         {
             "name": "nystudio107/craft-seomatic",
-            "version": "5.1.8",
+            "version": "5.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nystudio107/craft-seomatic.git",
-                "reference": "faead4dd1b5656975253c42eaf3cd3e09ac664aa"
+                "reference": "ba4c33a1b7878ccd5ce9585eabc1d3c153a2128e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/faead4dd1b5656975253c42eaf3cd3e09ac664aa",
-                "reference": "faead4dd1b5656975253c42eaf3cd3e09ac664aa",
+                "url": "https://api.github.com/repos/nystudio107/craft-seomatic/zipball/ba4c33a1b7878ccd5ce9585eabc1d3c153a2128e",
+                "reference": "ba4c33a1b7878ccd5ce9585eabc1d3c153a2128e",
                 "shasum": ""
             },
             "require": {
@@ -4586,7 +4586,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-21T23:33:37+00:00"
+            "time": "2025-01-09T02:02:41+00:00"
         },
         {
             "name": "nystudio107/craft-twigpack",
@@ -6603,16 +6603,16 @@
         },
         {
             "name": "solspace/craft-freeform",
-            "version": "5.8.5",
+            "version": "5.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solspace/craft-freeform.git",
-                "reference": "23e6c052f65f4108604dcc78bd589f5d781407f5"
+                "reference": "c95c0c29b72e41a7b830043c89105e4fa5b179fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/23e6c052f65f4108604dcc78bd589f5d781407f5",
-                "reference": "23e6c052f65f4108604dcc78bd589f5d781407f5",
+                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/c95c0c29b72e41a7b830043c89105e4fa5b179fc",
+                "reference": "c95c0c29b72e41a7b830043c89105e4fa5b179fc",
                 "shasum": ""
             },
             "require": {
@@ -6668,9 +6668,9 @@
             "description": "The most reliable form builder that's ready for wherever your project takes you.",
             "support": {
                 "issues": "https://github.com/solspace/craft-freeform/issues",
-                "source": "https://github.com/solspace/craft-freeform/tree/v5.8.5"
+                "source": "https://github.com/solspace/craft-freeform/tree/v5.8.6"
             },
-            "time": "2024-12-27T17:40:34+00:00"
+            "time": "2025-01-09T01:54:56+00:00"
         },
         {
             "name": "spomky-labs/cbor-php",
