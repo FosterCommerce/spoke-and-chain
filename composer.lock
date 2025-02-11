@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.339.9",
+            "version": "3.339.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e443779facb8cd0bba30383753a7a451db83acd6"
+                "reference": "85b90f70f88739f4f363c1af7c230e294af3dbd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e443779facb8cd0bba30383753a7a451db83acd6",
-                "reference": "e443779facb8cd0bba30383753a7a451db83acd6",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/85b90f70f88739f4f363c1af7c230e294af3dbd0",
+                "reference": "85b90f70f88739f4f363c1af7c230e294af3dbd0",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.339.9"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.339.10"
             },
-            "time": "2025-02-07T19:14:31+00:00"
+            "time": "2025-02-10T19:24:07+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -976,16 +976,16 @@
         },
         {
             "name": "craftcms/commerce",
-            "version": "5.3.2.1",
+            "version": "5.3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/commerce.git",
-                "reference": "184754a8868330fdd1eb1c3cf6463c93ca90ab35"
+                "reference": "9d81195fcdcfbb4a1923b031c0e2257ee499be40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/commerce/zipball/184754a8868330fdd1eb1c3cf6463c93ca90ab35",
-                "reference": "184754a8868330fdd1eb1c3cf6463c93ca90ab35",
+                "url": "https://api.github.com/repos/craftcms/commerce/zipball/9d81195fcdcfbb4a1923b031c0e2257ee499be40",
+                "reference": "9d81195fcdcfbb4a1923b031c0e2257ee499be40",
                 "shasum": ""
             },
             "require": {
@@ -1047,7 +1047,7 @@
                 "rss": "https://github.com/craftcms/commerce/releases.atom",
                 "source": "https://github.com/craftcms/commerce"
             },
-            "time": "2025-02-08T03:13:23+00:00"
+            "time": "2025-02-10T13:10:35+00:00"
         },
         {
             "name": "craftcms/flysystem",
