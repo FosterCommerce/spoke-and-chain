@@ -589,11 +589,15 @@ class SeedController extends Controller
 
         /** @var Address $billingAddress */
         $billingAddress = Craft::$app->getElements()->duplicateElement($this->_getRandomAddressFromCustomer($customer), [
+            'primaryOwner' => $order,
+            'owner' => $order,
             'primaryOwnerId' => $order->id,
             'title' => Craft::t('commerce', 'Billing Address'),
         ]);
         /** @var Address $shippingAddress */
         $shippingAddress = Craft::$app->getElements()->duplicateElement($this->_getRandomAddressFromCustomer($customer), [
+            'primaryOwner' => $order,
+            'owner' => $order,
             'primaryOwnerId' => $order->id,
             'title' => Craft::t('commerce', 'Shipping Address'),
         ]);
