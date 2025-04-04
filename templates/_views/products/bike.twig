@@ -15,6 +15,19 @@
 {% set images = product.productImages.all() %}
 {% set geometryReference = bikes.mainImage.one() ?? null %}
 
+{# START VARIANT MANAGER VARIABLES #}
+{% set attributeOptions = craft.variantManager.getAttributeOptions(product.id) %}
+{% set selection={} %}
+{% for attribute in attributeOptions %}
+  {# Find the selected option for the attribute using the kebab case of the attribute name #}
+  {% set selected = craft.app.request.getParam(attribute.name|kebab|ascii) %}
+  {% if selected is not empty %}
+    {% set selection = selection|merge({(attribute.name): selected}) %}
+  {% endif %}
+{% endfor %}
+{% set variant = craft.variants().productId(product.id).variantAttributes(selection).one() %}
+{# END VARIANT MANAGER VARIABLES #}
+
 {# Blocks #}
 {% block content %}
   <!-- Template: {{ _self }}.twig -->
@@ -40,6 +53,7 @@
       <form method="post">
         {{ csrfInput() }}
         {{ actionInput('commerce/cart/update-cart') }}
+        {{ hiddenInput('purchasableId', variant.id) }}
         {{ hiddenInput('successMessage', 'Added {name} to the cart.'|t('site', { name: product.title })|hash) }}
 
         <div class="lg:flex lg:justify-between">
@@ -68,37 +82,41 @@
             </div>
           </div>
 
-          {# Product Variants #}
           <div class="mt-6 lg:mt-0 lg:flex lg:justify-center lg:items-center">
-            {# Colors #}
-            {% if productColors %}
-              <div class="flex mr-2">
-                {% for color in productColors %}
-                  <div class="flex lg:flex-col text-xs text-gray-800 items-center mr-3">
-                    <div class="h-5 w-5 rounded-full mr-1 lg:mr-0"
-                         style="background-color: {{ color.color }}"
-                         aria-label="{{ color.title }}"
-                         title="{{ color.title }}">
-                    </div>
-                    <div class="lg:mt-1">
-                      {{ color.title }}
-                    </div>
-                  </div>
-                {% endfor %}
+            {# Show variant selections #}
+            {% for attribute in attributeOptions %}
+              <div class="mt-6 lg:mt-0">
+                <label>
+                  {{ attribute.name }}
+                  {% include '_includes/components/forms/select' with {
+                    name: attribute.name|kebab|ascii,
+                    class: 'attribute-select',
+                    label: attribute.name,
+                    options: attribute.values|map((v) => {
+                      value: v,
+                      label: v,
+                      selected: v == (selection[attribute.name] ?? null)
+                    })
+                  } %}
+                </label>
               </div>
-            {% endif %}
+            {% endfor %}
 
-            {# Variants #}
-            <div class="mt-6 lg:mt-0">
-              {% include '_includes/components/forms/select' with {
-                name: 'purchasableId',
-                options: product.variants|map((v) => {
-                  value: v.id,
-                  label: v.title,
-                  disabled: not v.hasStock()
-                })
-              } %}
-            </div>
+            {% js %}
+              document.addEventListener('DOMContentLoaded', function() {
+                document.querySelectorAll('.attribute-select').forEach(function(select) {
+                  // When a selection changes, update the page location with a query param for that selection
+                  select.addEventListener('change', attributeSelectionChanged);
+                });
+              });
+
+              function attributeSelectionChanged(e) {
+                let queryParams = new URLSearchParams(window.location.search)
+                queryParams.set(e.target.name, e.target.value);
+                window.location.search = queryParams.toString()
+              }
+            {% endjs %}
+
           </div>
 
           {# Product Buy #}

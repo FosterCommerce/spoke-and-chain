@@ -1,4 +1,4 @@
-dateModified: 1739233688
+dateModified: 1743798746
 elementSources:
   craft\elements\Asset:
     -
@@ -115,6 +115,7 @@ meta:
     51e3a5d4-240b-447d-88c5-443e30489a59: 'Equipment Type' # Equipment Type
     54f6a656-b4ef-4d80-86dc-2ed613f64056: 'Business Hours' # Business Hours
     58f90099-0367-42d6-a8e0-076eab66373b: 'Checkout: Summary' # Checkout: Summary
+    59a4f6c2-1dc9-424a-b3b0-c85115875977: 'Variant Attributes' # Variant Attributes
     63ae8822-3b4e-4a3d-b902-eba33875c230: Footer # Footer
     68e89100-65f8-4cef-9eee-a07652f3e68a: PDFs # PDFs
     70e125cc-65ea-4a3f-a65f-a5c91efcbfe7: Checkout # Checkout
@@ -382,6 +383,11 @@ plugins:
   twigpack:
     edition: standard
     enabled: true
+    schemaVersion: 1.0.0
+  variant-manager:
+    edition: standard
+    enabled: true
+    licenseKey: M3VIPL1IJ0KMSLGUAO94WZ9G
     schemaVersion: 1.0.0
 system:
   edition: pro

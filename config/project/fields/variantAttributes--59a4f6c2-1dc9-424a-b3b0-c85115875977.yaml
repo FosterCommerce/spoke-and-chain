@@ -1,0 +1,8 @@
+columnSuffix: null
+handle: variantAttributes
+instructions: null
+name: 'Variant Attributes'
+searchable: false
+translationKeyFormat: null
+translationMethod: none
+type: fostercommerce\variantmanager\fields\VariantAttributesField
